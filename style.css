@@ -1,18 +1,57 @@
-h1 {
- margin-top: 30px;
-  margin-left: 500px;
-  padding-bottom: 20px;
+
+/* General styling for the weather container */
+#weather-container {
+  background-color: #f8f9fa;
+
 }
 
-hr {
-  width: 50%;
-  margin-left: 320px;
-  
+/* Current weather section */
+.current-weather {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.input-group {
-  
-  width: 50%;
-  margin-top: 50px;
-  margin-left: 321px;
+.current-weather img {
+  width: 5px;
+  height: 20px;
 }
+
+.current-weather h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.current-weather p {
+  margin: 5px 0;
+  font-size: 1.1rem;
+}
+
+/* Forecast styling */
+.forecast-day {
+  display: inline-block;
+  width: calc(20% - 16px);
+  margin: 0 8px;
+  text-align: center;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-day img {
+  width: 80px;
+  height: 80px;
+}
+
+.forecast-day h3 {
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+.forecast-day p {
+  margin: 4px 0;
+  font-size: 1rem;
+}
+
+
